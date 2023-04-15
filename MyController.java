@@ -12,17 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/MyController")
 public class MyController {
-    @Autowired
-    private SysAction sysAction;
-
-    public MyController(){
-        System.out.print("------------------");
-    }
-    @RequestMapping("/printScopeBean")
-    @ResponseBody
-    public void printScopeBean(){
-        System.out.println(sysAction);
-    }
+    
 
 
 }
