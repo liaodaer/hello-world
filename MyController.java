@@ -16,7 +16,7 @@ public class MyController {
     private SysAction sysAction;
 
     public MyController(){
-        System.out.print("------------------");
+        System.out.print("------------------+++++++");
     }
     @RequestMapping("/printScopeBean")
     @ResponseBody
